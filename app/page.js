@@ -121,7 +121,7 @@ export default function Home() {
                 className="w-full rounded-2xl shadow-lg"
                 poster="/images/video-poster.jpg"
               >
-                <source src="/videos/ai-cooking-demo.mp4" type="video/mp4" />
+                <source src="/ai.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <p className="text-center text-gray-600 mt-4">

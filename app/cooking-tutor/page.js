@@ -137,7 +137,7 @@ export default function CookingTutor() {
                 <video 
                   controls 
                   className="w-full rounded-2xl shadow-lg"
-                  poster="/images/video-poster.jpg"
+                  poster="/ai.mp4"
                 >
                   <source src="/videos/ai-cooking-demo.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
