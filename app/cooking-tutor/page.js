@@ -129,8 +129,7 @@ export default function CookingTutor() {
                 </button>
               </div>
             </div>
-            
-            {/* AI Video Section */}
+        
             <div className="bg-gray-50 rounded-2xl p-8 mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-center">Watch AI Cooking Tutor in Action</h2>
               <div className="max-w-3xl mx-auto">
