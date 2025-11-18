@@ -109,22 +109,24 @@ export default function Home() {
           </div>
         </section>
 
-        {/* AI Video Section */}
+        {/* AI Video Section - Improved Responsiveness */}
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
               See AI Cooking in Action
             </h2>
             <div className="max-w-4xl mx-auto">
-              <video 
-                controls 
-                className="w-full rounded-2xl shadow-lg"
-                poster="/images/video-poster.jpg"
-              >
-                <source src="/ai.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              <p className="text-center text-gray-600 mt-4">
+              <div className="relative aspect-video bg-black rounded-2xl shadow-lg overflow-hidden">
+                <video 
+                  controls 
+                  className="w-full h-full object-contain"
+                  poster="/images/video-poster.jpg"
+                >
+                  <source src="/ai.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <p className="text-center text-gray-600 mt-6 text-lg">
                 Watch how our AI helps create authentic Emirati dishes step by step
               </p>
             </div>

@@ -129,23 +129,6 @@ export default function CookingTutor() {
                 </button>
               </div>
             </div>
-        
-            <div className="bg-gray-50 rounded-2xl p-8 mb-8">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-center">Watch AI Cooking Tutor in Action</h2>
-              <div className="max-w-3xl mx-auto">
-                <video 
-                  controls 
-                  className="w-full rounded-2xl shadow-lg"
-                  poster="/ai.mp4"
-                >
-                  <source src="/videos/ai-cooking-demo.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-                <p className="text-center text-gray-600 mt-4">
-                  See how our AI provides step-by-step guidance for traditional Emirati cooking
-                </p>
-              </div>
-            </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-gray-50 rounded-2xl p-6">
