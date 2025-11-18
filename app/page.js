@@ -18,12 +18,12 @@ export default function Home() {
     { 
       name: 'Luqaimat', 
       desc: 'Sweet fried dumplings',
-      image: '/Luqaimat.jpg'
+      image: '/Luqaimat.jpeg'
     },
     { 
       name: 'Salona', 
       desc: 'Traditional vegetable stew',
-      image: '/Salona.jpg'
+      image: '/Salona.jpeg'
     }
   ]
 
