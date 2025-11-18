@@ -95,7 +95,7 @@ export default function RecipeFinder() {
               <div className="text-center">
                 <div className="bg-gray-100 rounded-2xl h-48 mb-4 flex items-center justify-center overflow-hidden">
                   <Image 
-                    src="/images/ai-ingredient-analysis.jpg" 
+                    src="/recipe1.jpeg" 
                     alt="AI analyzing ingredient combinations"
                     width={400}
                     height={192}
@@ -107,7 +107,7 @@ export default function RecipeFinder() {
               <div className="text-center">
                 <div className="bg-gray-100 rounded-2xl h-48 mb-4 flex items-center justify-center overflow-hidden">
                   <Image 
-                    src="/images/ai-recipe-matching.jpg" 
+                    src="/recipe2.jpeg" 
                     alt="AI matching ingredients to traditional recipes"
                     width={400}
                     height={192}

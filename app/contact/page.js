@@ -27,7 +27,7 @@ export default function Contact() {
                   <div className="text-center">
                     <div className="bg-gray-100 rounded-2xl h-32 mb-2 flex items-center justify-center overflow-hidden">
                       <Image 
-                        src="/images/ai-support.jpg" 
+                        src="/contact1.jpeg" 
                         alt="AI customer support assistance"
                         width={200}
                         height={128}
@@ -39,7 +39,7 @@ export default function Contact() {
                   <div className="text-center">
                     <div className="bg-gray-100 rounded-2xl h-32 mb-2 flex items-center justify-center overflow-hidden">
                       <Image 
-                        src="/images/ai-chatbot.jpg" 
+                        src="/contact2.jpeg" 
                         alt="AI chatbot for cooking help"
                         width={200}
                         height={128}

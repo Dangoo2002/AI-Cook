@@ -25,7 +25,7 @@ export default function About() {
                 <div className="text-center">
                   <div className="bg-gray-100 rounded-2xl h-48 mb-4 flex items-center justify-center overflow-hidden">
                     <Image 
-                      src="/images/ai-cooking-tech.jpg" 
+                      src="/about1.jpeg" 
                       alt="AI analyzing traditional Emirati cooking"
                       width={400}
                       height={192}
@@ -37,7 +37,7 @@ export default function About() {
                 <div className="text-center">
                   <div className="bg-gray-100 rounded-2xl h-48 mb-4 flex items-center justify-center overflow-hidden">
                     <Image 
-                      src="/images/ai-recipe-creation.jpg" 
+                      src="/about2.jpeg" 
                       alt="AI creating modern Emirati recipes"
                       width={400}
                       height={192}

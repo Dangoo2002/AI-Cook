@@ -1,8 +1,32 @@
 import Header from './components/Header'
 import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
+import Image from 'next/image'
 
 export default function Home() {
+  const popularDishes = [
+    { 
+      name: 'Machboos', 
+      desc: 'Spiced rice with meat',
+      image: '/Machboos.jpeg'
+    },
+    { 
+      name: 'Harees', 
+      desc: 'Wheat and meat porridge',
+      image: '/Harees.jpeg'
+    },
+    { 
+      name: 'Luqaimat', 
+      desc: 'Sweet fried dumplings',
+      image: '/Luqaimat.jpg'
+    },
+    { 
+      name: 'Salona', 
+      desc: 'Traditional vegetable stew',
+      image: '/Salona.jpg'
+    }
+  ]
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -27,15 +51,16 @@ export default function Home() {
               Popular Emirati Dishes
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {[
-                { name: 'Machboos', desc: 'Spiced rice with meat' },
-                { name: 'Harees', desc: 'Wheat and meat porridge' },
-                { name: 'Luqaimat', desc: 'Sweet fried dumplings' },
-                { name: 'Salona', desc: 'Traditional vegetable stew' }
-              ].map((dish, index) => (
+              {popularDishes.map((dish, index) => (
                 <div key={index} className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow">
-                  <div className="w-20 h-20 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-gray-600 text-sm">Image</span>
+                  <div className="w-20 h-20 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
+                    <Image 
+                      src={dish.image} 
+                      alt={dish.name}
+                      width={80}
+                      height={80}
+                      className="object-cover w-full h-full"
+                    />
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">{dish.name}</h3>
                   <p className="text-gray-600">{dish.desc}</p>
@@ -80,6 +105,28 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Visual Search</h3>
                 <p className="text-gray-600">Upload ingredient photos for recipe suggestions</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* AI Video Section */}
+        <section className="py-20 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+              See AI Cooking in Action
+            </h2>
+            <div className="max-w-4xl mx-auto">
+              <video 
+                controls 
+                className="w-full rounded-2xl shadow-lg"
+                poster="/images/video-poster.jpg"
+              >
+                <source src="/videos/ai-cooking-demo.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <p className="text-center text-gray-600 mt-4">
+                Watch how our AI helps create authentic Emirati dishes step by step
+              </p>
             </div>
           </div>
         </section>

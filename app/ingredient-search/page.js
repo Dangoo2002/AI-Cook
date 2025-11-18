@@ -92,7 +92,7 @@ export default function IngredientSearch() {
               <div className="text-center">
                 <div className="bg-gray-100 rounded-2xl h-48 mb-4 flex items-center justify-center overflow-hidden">
                   <Image 
-                    src="/images/ai-vision-recognition.jpg" 
+                    src="/ingredient1.jpeg" 
                     alt="AI computer vision recognizing ingredients"
                     width={400}
                     height={192}
@@ -104,7 +104,7 @@ export default function IngredientSearch() {
               <div className="text-center">
                 <div className="bg-gray-100 rounded-2xl h-48 mb-4 flex items-center justify-center overflow-hidden">
                   <Image 
-                    src="/images/ai-ingredient-matching.jpg" 
+                    src="/ingredient2.jpeg" 
                     alt="AI matching ingredients to recipes"
                     width={400}
                     height={192}

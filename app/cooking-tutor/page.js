@@ -50,7 +50,7 @@ export default function CookingTutor() {
                 <div className="text-center">
                   <div className="bg-gray-100 rounded-2xl h-32 mb-2 flex items-center justify-center overflow-hidden">
                     <Image 
-                      src="/images/ai-step-visual.jpg" 
+                      src="/cooking1.jpeg" 
                       alt="AI visual cooking guidance"
                       width={200}
                       height={128}
@@ -62,7 +62,7 @@ export default function CookingTutor() {
                 <div className="text-center">
                   <div className="bg-gray-100 rounded-2xl h-32 mb-2 flex items-center justify-center overflow-hidden">
                     <Image 
-                      src="/images/ai-voice-assist.jpg" 
+                      src="/cooking2.jpeg" 
                       alt="AI voice assistance for cooking"
                       width={200}
                       height={128}

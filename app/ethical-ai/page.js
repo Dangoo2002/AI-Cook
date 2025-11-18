@@ -27,7 +27,7 @@ export default function EthicalAI() {
                 <div className="text-center">
                   <div className="bg-gray-100 rounded-2xl h-48 mb-4 flex items-center justify-center overflow-hidden">
                     <Image 
-                      src="/images/ai-data-security.jpg" 
+                      src="/ethical.jpeg" 
                       alt="AI data security and encryption"
                       width={400}
                       height={192}
@@ -39,7 +39,7 @@ export default function EthicalAI() {
                 <div className="text-center">
                   <div className="bg-gray-100 rounded-2xl h-48 mb-4 flex items-center justify-center overflow-hidden">
                     <Image 
-                      src="/images/ai-transparency.jpg" 
+                      src="/ethical1.jpeg" 
                       alt="Transparent AI systems"
                       width={400}
                       height={192}
